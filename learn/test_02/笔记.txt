@@ -1,0 +1,2 @@
+python -c 'import site;print("\n".join(site.getsitepackages()))'
+python -m tensorflow.models.image.mnist.convolutional
