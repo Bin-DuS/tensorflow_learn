@@ -1,2 +1,8 @@
+http://www.tensorfly.cn/tfdoc/get_started/os_setup.html 
+apt-get install python-pip python-dev python-virtualenv #安装 VirtualEnv 
+virtualenv --system-site-packages ~/tensorflow
+cd ~/tensorflow
+source bin/activate
+
 python -c 'import site;print("\n".join(site.getsitepackages()))'
 python -m tensorflow.models.image.mnist.convolutional
