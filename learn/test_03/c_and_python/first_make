@@ -1,0 +1,5 @@
+LIBBIN=colin.so
+LIBBIN:
+	gcc -fPIC -shared colin.c -o $(LIBBIN)
+clean:
+	rm -rf $(LIBBIN)

@@ -1,0 +1,5 @@
+BIN=colin
+BIN:
+	gcc -I /usr/include/python2.7/ -fPIC -shared colin.c wrap.c -o colin.so
+clean:
+	rm -rf $(BIN)
