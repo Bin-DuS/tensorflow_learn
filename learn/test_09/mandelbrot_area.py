@@ -38,10 +38,10 @@ def gen_mandelbrot(Z, ratio1, ratio2, ratio3):
     return Image.fromarray(np.uint8(img_array * 255))
 
 if __name__ == '__main__':
-    start_x = 0.275  # x range
-    end_x = 0.28
-    start_y = 0.006  # y range
-    end_y = 0.01
+    start_x = -0.090  # x range
+    end_x = -0.086
+    start_y = 0.654  # y range
+    end_y = 0.657
     width = 1000
     ratio1, ratio2, ratio3 = 0.9, 0.6, 0.6
 
