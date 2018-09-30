@@ -38,12 +38,12 @@ def gen_mandelbrot(Z, ratio1, ratio2, ratio3):
     return Image.fromarray(np.uint8(img_array * 255))
 
 if __name__ == '__main__':
-    start_x = -0.090  # x range
-    end_x = -0.086
-    start_y = 0.654  # y range
-    end_y = 0.657
+    start_x = -0.750  # x range
+    end_x = -0.747
+    start_y = 0.099  # y range
+    end_y = 0.102
     width = 1000
-    ratio1, ratio2, ratio3 = 0.9, 0.6, 0.6
+    ratio1, ratio2, ratio3 = 0.1, 0.1, 0.3
 
     step = (end_x - start_x) / width
     Y, X = np.mgrid[start_y:end_y:step, start_x:end_x:step]
